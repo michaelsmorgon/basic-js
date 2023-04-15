@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * calculateHanoi(9, 4308) => { turns: 511, seconds: 427 }
  *
  */
-function calculateHanoi(disksNumber, turnsSpeed) {console.log(typeof disksNumber);
+function calculateHanoi(disksNumber, turnsSpeed) {
   if (typeof disksNumber !== 'number' && typeof turnsSpeed !== 'number' || turnsSpeed <= 0 || disksNumber <= 0) {
     return null;
   }

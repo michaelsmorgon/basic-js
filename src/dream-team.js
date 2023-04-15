@@ -46,5 +46,3 @@ let res = createDreamTeam([
   'Erazim Kohak',
   '  val_plumwood',
 ]);
-
-console.log(res);
